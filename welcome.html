@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Jobee</title>
+  <link rel="stylesheet" href="./job-finder/css/welcome.css">
+
+</head>
+<body>
+  <div class="welcome-screen">
+    <div class="overlay">
+      <div class="welcome-text">
+        <h1>Welcome on board  👋</h1>
+        <p>The best place to find job suitable for you 😊</p>
+        <button id="go-to-walkthrough">Get Started</button>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.getElementById("go-to-walkthrough").onclick = function (){
+      window.location.href = "walkthrough.html";
+    };
+  </script>
+</body>
+</html>

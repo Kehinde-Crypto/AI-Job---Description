@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Walkthrough</title>
+  <link rel="stylesheet" href="">
+</head>
+<body>
+  <div class="walkthrough-screen">
+    <img src="./job-finder/assets/images/job3.PNG" class="walk-img" alt="Jobee Walkthrough" />
+    <div class="walk-text">
+      <h2>We are the best job portal platform</h2>
+      <p>A portal where easy Job can be handed to you based on you skill set.</p>
+
+      <div class="pagination">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <button id="next-walk">Next</button>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("next-walk").onclick = function () {
+      alert("You can redirect this to login.html or the next walkthrough screen.");
+    };
+  </script>
+</body>
+</html>
