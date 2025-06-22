@@ -1,12 +1,11 @@
 body{
   font-family: sans-serif;
-  background-color: purple;
-  margin: 0;
-  padding: 0;
+  background-color: rgb(202, 5, 202);
+   margin: 0;
+   padding: 0; 
   display: flex;
   justify-content: center;
 }
-
 .container{
   max-width: 360px;
   background: white;
@@ -21,10 +20,12 @@ body{
   text-align: left;
   cursor: pointer;
 }
-.Illustration{
-  width: 100%;
-  max-width: 240px;
-  margin: 20px auto;
+.Illustrate{
+  width: 150px;
+  height: 150px;
+  object-fit:cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 h1{
   font-size: 24px;
@@ -32,10 +33,10 @@ h1{
   font-weight: 600;
 }
 .btn {
-  width: 100%;
+  width: 70px;
   padding: 12px;
   border: none;
-  border-radius: 12px;
+  border-radius: 9px;
   font-size: 16px;
   margin: 10px 0;
   cursor: pointer;
@@ -43,9 +44,10 @@ h1{
   align-items: center;
   justify-content: center;
   gap: 12px;
+  object-fit: cover;
 }
 .social{
-  background: #0f0f0f;
+  background: white;
 }
 .primary{
   background: #1a73e8;
