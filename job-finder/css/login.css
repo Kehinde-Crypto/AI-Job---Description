@@ -1,90 +1,94 @@
+*{
+  box-sizing: border-box;
+}
 body{
   font-family: sans-serif;
-  background-color: rgb(202, 5, 202);
-   margin: 0;
-   padding: 0; 
+  background-color: white;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 .container{
   max-width: 360px;
-  background: white;
+  background:white;
   padding: 24px;
   border-radius: 16px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  margin-top:20px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
   text-align: center;
 }
 .back-btn{
   font-size: 20px;
   text-align: left;
+  margin-bottom: 10px;
   cursor: pointer;
 }
 .Illustrate{
-  width: 150px;
-  height: 150px;
-  object-fit:cover;
-  border-radius: 50%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 200px;
+  margin: 10px auto;
+  display: block;
 }
 h1{
   font-size: 24px;
-  margin-bottom: 24px;
   font-weight: 600;
+  margin: 20px 0;
 }
-.btn {
-  width: 70px;
+.btn{
+  width: 100%;
   padding: 12px;
   border: none;
-  border-radius: 9px;
-  font-size: 16px;
+  border-radius: 12px;
+  font-size: 15px;
   margin: 10px 0;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 12px;
-  object-fit: cover;
 }
 .social{
   background: white;
+  border: 1px solid black;
+  color: blue;
 }
 .primary{
   background: #1a73e8;
   color: white;
 }
-.divider {
+.icon{
+  width: 18px;
+  height: 18px;
+}
+.divider{
   margin: 20px 0;
   position: relative;
   text-align: center;
   color: #aaa;
 }
-
 .divider::before,
-.divider::after {
+.divider::after{
   content: "";
   height: 1px;
   width: 40%;
-  background: #ddd;
+  background: #ccc;
   position: absolute;
   top: 50%;
 }
-
-.divider::before {
+.divider::before{
   left: 0;
 }
-
-.divider::after {
+.divider::after{
   right: 0;
 }
-
-.signup-text {
-  margin-top: 16px;
+.signup-text{
+   margin-top: 16px;
   font-size: 14px;
   color: #666;
 }
-
-.signup-text a {
+.signup-text a{
   color: #1a73e8;
   text-decoration: none;
 }
