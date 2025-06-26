@@ -1,0 +1,87 @@
+/* style.css */
+
+/* Extend base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #0e0e1a;
+  color: white;
+  line-height: 1.6;
+}
+.navbar {
+  background: #0e0e1a;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #333;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.signup-hero {
+  background: url('./images/background.jpg') no-repeat center center/cover;
+  padding: 6rem 1rem;
+}
+
+.signup-form {
+  padding: 4rem 1rem;
+  background: linear-gradient(145deg, #191933, #101020);
+  color: white;
+}
+
+.signup-form h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.signup-form p {
+  margin-bottom: 2rem;
+  color: #ccc;
+}
+
+.signup-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.signup-form label {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-weight: 500;
+}
+
+.signup-form input {
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  background: #2a2a40;
+  color: #fff;
+}
+
+.signup-form input::placeholder {
+  color: #bbb;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .form-buttons {
+    flex-direction: column;
+  }
+}
