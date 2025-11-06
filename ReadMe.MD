@@ -1,2 +1,2 @@
 ## DYNAMIC CHANGES TO THE CODE
-## Adding UI to the Chat Bot
+## Done with this project with the resume analyser
